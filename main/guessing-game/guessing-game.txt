@@ -1,0 +1,18 @@
+Description
+The computer will pick a number between 1 and 100. (You can choose any high number you want.) The purpose of the game is to guess the number the computer picked in as few guesses as possible.
+
+Input
+The user will enter his or her guess until the correct number is guessed.
+
+Output
+The program will keep asking the user to guess until he or she gets the number correct. Then the program will print how many guesses were required.
+
+Sample session
+Time to play a guessing game.
+
+Enter a number between 1 and 100: 62
+Too high. Try again: 32
+Too low. Try again: 51
+Too low. Try again: 56
+
+Congratulations! You got it in 4 guesses.
