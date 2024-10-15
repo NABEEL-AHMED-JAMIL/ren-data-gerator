@@ -6,6 +6,7 @@ import time
 from faker import Faker
 import mongodb
 
+# faker object
 fake = Faker()
 
 # Function to generate a random alphanumeric string

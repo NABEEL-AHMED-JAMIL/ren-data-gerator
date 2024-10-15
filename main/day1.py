@@ -3,7 +3,6 @@ def if_statement():
     x = int(input("Please enter a number: "))
     # process use to get the int number
     if x < 0:
-        x = 0
         # print its negative value
         print('Negative change to zero')
     elif x == 0:
