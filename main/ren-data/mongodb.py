@@ -15,4 +15,4 @@ def save_data(collection_name, document):
         print(f"new connection open for transaction")
         collection = db_connection()[collection_name]
         print(f"data written to {collection}")
-    collection.insert_one(document)
+        collection.insert_one(document)
