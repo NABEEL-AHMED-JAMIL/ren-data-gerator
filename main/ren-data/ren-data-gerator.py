@@ -3,8 +3,8 @@ import os
 import random
 import string
 import time
-from faker import Faker
 import mongodb
+from faker import Faker
 
 # faker object
 fake = Faker()
