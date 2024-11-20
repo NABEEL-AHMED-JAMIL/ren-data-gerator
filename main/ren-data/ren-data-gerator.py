@@ -16,7 +16,7 @@ def generate_random_id(length=8):
 
 # Function to create a random RTB JSON request
 def create_random_truck_request():
-    rtb_request = {
+    return {
         "id": generate_random_id(),
         "imp": [
             {
@@ -34,7 +34,6 @@ def create_random_truck_request():
             "ip": fake.ipv4_public()
         }
     }
-    return rtb_request
 
 def write_rtb_request_to_file():
     # Generate a random RTB request

@@ -1,9 +1,8 @@
 import os
 import random
-
 import requests
-from faker import Faker
 import pandas as pd
+from faker import Faker
 
 # Initialize Faker
 fake = Faker()
