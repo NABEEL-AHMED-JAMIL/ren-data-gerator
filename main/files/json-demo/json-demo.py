@@ -4,7 +4,7 @@ import itertools
 import json
 import os
 
-ROOT_PATH = "C:/stock-price"
+ROOT_PATH = "C:\\stock-price"
 
 # method read the folder
 def read_root_path():
@@ -41,7 +41,7 @@ def transformation(file_path):
             print(','.join(column_name))
             print("# " * 40)
             for row in data_view.get('rows'):
-                print(','.join(row.get('text')))
+                print(','.join(str(item) for item in row.get('text')))
         except json.JSONDecodeError as e:
             print("Invalid JSON:", e)
     else:
